@@ -10,5 +10,4 @@ lib
 #misc
 .DS_Store
 
-yarn.lock
 .eslintcache

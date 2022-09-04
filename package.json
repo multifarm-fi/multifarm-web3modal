@@ -1,5 +1,5 @@
 {
-  "name": "web3modal",
+  "name": "@multifarm/web3modal",
   "version": "1.9.9",
   "description": "A single Web3 / Ethereum provider solution for all Wallets",
   "keywords": [
@@ -77,10 +77,11 @@
     "husky": "^3.0.0",
     "isomorphic-fetch": "^2.2.1",
     "mocha": "5.2.0",
+    "peer-deps-externals-webpack-plugin": "^1.0.4",
     "prettier": "^1.18.2",
     "terser": "^3.14.1",
     "ts-loader": "^5.3.3",
-    "tslib": "^2.3.1",
+    "tslib": "^2.4.0",
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.18.0",
     "tslint-config-standard": "^8.0.1",
@@ -92,9 +93,10 @@
   "dependencies": {
     "detect-browser": "^5.1.0",
     "prop-types": "^15.7.2",
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "styled-components": "^5.3.3",
-    "tslib": "^1.10.0"
+    "styled-components": "^5.3.5"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }

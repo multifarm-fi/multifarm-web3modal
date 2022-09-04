@@ -1,10 +1,12 @@
 const path = require("path");
+const PeerDepsExternalsPlugin = require("peer-deps-externals-webpack-plugin");
 
 module.exports = {
   mode: "production",
   entry: {
     index: "./src/index.ts"
   },
+  plugins: [new PeerDepsExternalsPlugin()],
   output: {
     path: path.resolve(__dirname, "dist"),
     filename: "[name].js",
