@@ -1,28 +1,11 @@
 {
   "name": "@multifarm/web3modal",
-  "version": "1.9.9",
-  "description": "A single Web3 / Ethereum provider solution for all Wallets",
+  "version": "0.0.1",
+  "description": "Multifarm adaptation of web3modal",
   "keywords": [
-    "web3",
-    "crypto",
-    "ethereum",
-    "web3modal",
-    "metamask",
-    "tally",
-    "walletconnect",
-    "portis",
-    "fortmatic",
-    "arkane",
-    "venly",
-    "torus",
-    "authereum",
-    "frame",
-    "coinbasewallet",
-    "sequence",
-    "web3auth"
+    "multifarm"
   ],
-  "author": "Web3Modal <web3modal.com>",
-  "license": "MIT",
+  "license": "unlicensed",
   "main": "dist/index.js",
   "unpkg": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,14 +17,6 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/web3modal/web3modal",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/web3modal/web3modal.git"
-  },
-  "bugs": {
-    "url": "https://github.com/web3modal/web3modal/issues"
-  },
   "scripts": {
     "prepare": "npm run clean && npm run build",
     "clean": "rm -rf dist",
